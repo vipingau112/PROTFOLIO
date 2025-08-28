@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Me - Vipin's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        body {
+            position: relative;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0 20px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            background: url('DevLog.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 33, 0.7);
+
+            z-index: -1;
+        }
+
+
+        nav {
+            background-color: rgba(18, 18, 67, 0.85);
+
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav {
+            background-color: rgb(18, 18, 67);
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        nav ul li a:hover {
+            color: rgb(180, 118, 239);
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+
+        header .left {
+            color: white;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: rgb(180, 118, 239);
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        p,
+        label {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        ul.contact-info {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 40px;
+        }
+
+        ul.contact-info li {
+            margin-bottom: 15px;
+        }
+
+        a.contact-link {
+            color: rgb(180, 118, 239);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a.contact-link:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            background-color: rgb(18, 18, 67);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(180, 118, 239);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid rgb(180, 118, 239);
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            background-color: rgb(0, 0, 50);
+            color: white;
+        }
+
+        form textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        form button {
+            background-color: rgb(180, 118, 239);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: rgb(140, 80, 190);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vipin's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/Services.html">Services</a></li>
+                    <li><a href="/Project.html">Project</a></li>
+                    <li><a href="/Contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <p>You can reach me at the following contacts or send me a message using the form below:</p>
+            <ul class="contact-info">
+                <li>Phone: <a href="tel:+917309930194" class="contact-link">+91 7309930194</a></li>
+                <li>Alternate Phone: <a href="tel:+917379524563" class="contact-link">+91 7379524563</a></li>
+                <li>Email: <a href="mailto:vipinguatam194@gmail.com" class="contact-link">vipinguatam194@gmail.com</a>
+                </li>
+            </ul>
+
+            <form action="mailto:vipinguatm194@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="your name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" placeholder="your email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
